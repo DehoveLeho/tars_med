@@ -4,6 +4,8 @@
 
 T.A.R.S.-Med is a ROS 2 Humble robotics workspace implementing simulation, perception, teleoperation, and autonomous grasping/handover of surgical instruments using the Unitree G1 humanoid robot in MuJoCo.
 
+> 📖 **Guide complet d'installation pas-à-pas (Ubuntu 22.04 natif, WSL2, Fedora Distrobox) :** voir [INSTALL.md](INSTALL.md).
+
 ---
 
 ## Repository Structure
@@ -12,6 +14,7 @@ T.A.R.S.-Med is a ROS 2 Humble robotics workspace implementing simulation, perce
 tars_med/
 ├── .gitignore
 ├── README.md
+├── INSTALL.md                       # Comprehensive team installation & setup guide
 ├── projet_interfaces/               # ROS 2 message & action interface package
 │   ├── CMakeLists.txt
 │   ├── package.xml
