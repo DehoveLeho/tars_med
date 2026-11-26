@@ -1,0 +1,17 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# ROS 2 / Colcon build artifacts
+build/
+install/
+log/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*~

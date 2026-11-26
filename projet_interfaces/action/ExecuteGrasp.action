@@ -1,0 +1,16 @@
+uint8 GRASP_PINCH = 0
+uint8 GRASP_POWER = 1
+uint8 GRASP_TEMPLATE = 2
+string object_id
+geometry_msgs/PoseStamped target_pose
+uint8 grasp_type
+float32 max_force_newton
+---
+bool success
+ErrorCode error
+geometry_msgs/PoseStamped actual_pose
+float32 measured_force_newton
+---
+float32 current_force_newton
+float32 gripper_closure_ratio
+string status_message
